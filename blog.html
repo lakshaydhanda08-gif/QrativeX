@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — QrativeX</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">Qrative<span>X</span></div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="community.html">Community</a></li>
+    <li><a href="blog.html" class="active">Blog</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+  <button class="nav-cta" onclick="window.location.href='index.html#waitlist'">Join Waitlist</button>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">&#9776;</button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="community.html">Community</a>
+  <a href="blog.html">Blog</a>
+  <a href="about.html">About</a>
+  <a href="index.html#waitlist" onclick="closeMobileMenu()">Join Waitlist</a>
+</div>
+
+<div class="page-hero">
+  <div class="section-label">From the team</div>
+  <h1 class="page-title">Insights for <em>serious</em> creators</h1>
+  <p class="page-sub">Tips, workflows, industry takes, and stories from the QrativeX community. No fluff.</p>
+</div>
+
+<section class="section">
+  <div class="blog-featured">
+    <div class="blog-card featured">
+      <div class="blog-tag">Featured</div>
+      <div class="blog-title">Why video editors are the most underrated people in the creator economy</div>
+      <div class="blog-excerpt">Everyone talks about the YouTuber, the TikToker, the brand. Nobody talks about the editor who made the content actually watchable. That's about to change.</div>
+      <div class="blog-meta">
+        <span class="blog-author">QrativeX Team</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-date">June 2025</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-read">5 min read</span>
+      </div>
+      <a href="#" class="blog-link">Read article →</a>
+    </div>
+  </div>
+
+  <div class="blog-grid">
+    <div class="blog-card">
+      <div class="blog-tag">Workflow</div>
+      <div class="blog-title">10 Premiere Pro shortcuts that will save you 2 hours every week</div>
+      <div class="blog-excerpt">Most editors use maybe 20% of Premiere's keyboard shortcuts. Here are the ones the other 80% are sleeping on.</div>
+      <div class="blog-meta">
+        <span class="blog-author">Community</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-date">May 2025</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-read">4 min read</span>
+      </div>
+      <a href="#" class="blog-link">Read →</a>
+    </div>
+    <div class="blog-card">
+      <div class="blog-tag">Business</div>
+      <div class="blog-title">How to price your video editing services without underselling yourself</div>
+      <div class="blog-excerpt">Charging by the minute, by the hour, by the project? Here's how to figure out what your work is actually worth.</div>
+      <div class="blog-meta">
+        <span class="blog-author">QrativeX Team</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-date">May 2025</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-read">6 min read</span>
+      </div>
+      <a href="#" class="blog-link">Read →</a>
+    </div>
+    <div class="blog-card">
+      <div class="blog-tag">Growth</div>
+      <div class="blog-title">How one editor went from 0 to 3 retainer clients in 60 days</div>
+      <div class="blog-excerpt">A real story from one of our community members — no paid ads, no big following, just smart positioning and consistency.</div>
+      <div class="blog-meta">
+        <span class="blog-author">Community</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-date">April 2025</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-read">7 min read</span>
+      </div>
+      <a href="#" class="blog-link">Read →</a>
+    </div>
+    <div class="blog-card">
+      <div class="blog-tag">Tools</div>
+      <div class="blog-title">DaVinci Resolve vs Premiere Pro in 2025: an honest comparison</div>
+      <div class="blog-excerpt">Both are great. But they're great for different people. Here's how to decide which one actually fits your workflow.</div>
+      <div class="blog-meta">
+        <span class="blog-author">QrativeX Team</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-date">April 2025</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-read">8 min read</span>
+      </div>
+      <a href="#" class="blog-link">Read →</a>
+    </div>
+    <div class="blog-card">
+      <div class="blog-tag">Mindset</div>
+      <div class="blog-title">The creative block is a lie — here's what's actually happening</div>
+      <div class="blog-excerpt">You're not blocked. You're either uninspired, burnt out, or afraid. Here's how to tell the difference and fix it.</div>
+      <div class="blog-meta">
+        <span class="blog-author">Community</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-date">March 2025</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-read">5 min read</span>
+      </div>
+      <a href="#" class="blog-link">Read →</a>
+    </div>
+    <div class="blog-card">
+      <div class="blog-tag">Industry</div>
+      <div class="blog-title">Short-form vs long-form: where should you focus your editing career?</div>
+      <div class="blog-excerpt">Reels and Shorts are everywhere. But long-form YouTube is still paying some editors very well. Which path is right for you?</div>
+      <div class="blog-meta">
+        <span class="blog-author">QrativeX Team</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-date">March 2025</span>
+        <span class="blog-dot">·</span>
+        <span class="blog-read">6 min read</span>
+      </div>
+      <a href="#" class="blog-link">Read →</a>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-box">
+    <h2>Want to write for us?</h2>
+    <p>Share your knowledge with 500+ creators. We welcome community contributors — editors, motion designers, colorists, and more.</p>
+    <div class="hero-actions" style="justify-content:center; margin-top:0;">
+      <a href="#"><button class="btn-primary">Submit your article</button></a>
+      <a href="community.html"><button class="btn-ghost">Join the community →</button></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="logo">Qrative<span>X</span></div>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="community.html">Community</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+  </div>
+  <div class="footer-socials">
+    <a href="#">Twitter</a>
+    <a href="#">Discord</a>
+    <a href="#">Instagram</a>
+  </div>
+  <div class="footer-copy">© 2025 QrativeX. Made with 🎬 for creators.</div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
